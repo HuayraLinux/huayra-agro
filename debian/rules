@@ -1,0 +1,40 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+# Sample debian/rules that uses debhelper.
+#
+# This file was originally written by Joey Hess and Craig Small.
+# As a special exception, when this file is copied by dh-make into a
+# dh-make output file, you may use that output file without restriction.
+# This special exception was added by Craig Small in version 0.37 of dh-make.
+#
+# Modified to make a template file for a multi-binary package with separated
+# build-arch and build-indep targets  by Bill Allombert 2001
+
+# Uncomment this to turn on verbose mode.
+export DH_VERBOSE=1
+
+# This has to be exported to make some magic below work.
+export DH_OPTIONS
+
+# pbuilder doesn't set a valid $HOME on purpose, we need it for the npm cache
+ifeq ($(shell test -e $(HOME) || echo no),no)
+	export HOME=/tmp
+endif
+
+# Node
+NODE_VERSION=v12.21.0
+NODE_FILENAME=node-$(NODE_VERSION)-linux-x64
+NODE_TARBALL=$(NODE_FILENAME).tar.xz
+
+PATH:=$(NODE_FILENAME)/bin:$(PATH)
+#PATH:=/tmp/buildd/huayra-recursos-educativos-abiertos-1.0.3/node-v12.21.0-linux-x64/bin/:/bin:/usr/bin:$(PATH)
+
+%:
+	dh $@
+
+override_dh_auto_configure:
+	wget https://nodejs.org/dist/$(NODE_VERSION)/$(NODE_TARBALL)
+	tar xvf $(NODE_TARBALL)
+	node -v; npm -v
+	npm i
+	npm run build

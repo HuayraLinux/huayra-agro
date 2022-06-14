@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="256"
+   height="256"
+   viewBox="0 0 67.733332 67.733335"
+   version="1.1"
+   id="svg18205"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="folder.svg">
+  <defs
+     id="defs18199" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.1794051"
+     inkscape:cx="-142.09557"
+     inkscape:cy="105.61597"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1918"
+     inkscape:window-height="1023"
+     inkscape:window-x="0"
+     inkscape:window-y="26"
+     inkscape:window-maximized="1"
+     inkscape:snap-global="false" />
+  <metadata
+     id="metadata18202">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-229.26665)">
+    <g
+       id="g4789"
+       transform="matrix(5.2518055,0,0,5.2518055,230.95946,217.3646)">
+      <path
+         sodipodi:nodetypes="cscsssssssc"
+         inkscape:connector-curvature="0"
+         id="rect4636-6-5"
+         d="m -32.508072,4.409716 -2.393209,2.89e-4 c -0.758402,9.1e-5 -0.776682,0.33809 -0.806969,0.460275 l -6.297054,0.02239 c -0.473696,0.0017 -0.576225,0.223232 -0.576225,0.559637 v 4.3875481 c 0,0.2232269 0.17971,0.4029379 0.402938,0.4029379 h 9.670519 c 0.22323,0 0.402938,-0.179711 0.402938,-0.4029379 V 4.812658 c 0,-0.223227 -0.179714,-0.404093 -0.402938,-0.402938 z"
+         style="opacity:1;fill:#199453;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.30000001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4708-3"
+         d="m -40.034336,6.137174 6.440324,-1.253253 -10e-7,4.1775071 -6.092197,-0.06963 z"
+         style="fill:#e69732;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4708"
+         d="m -38.904606,7.2131481 6.440323,-1.2532531 v 4.177507 l -6.092198,-0.06963 z"
+         style="fill:#e69732;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="sccssssssss"
+         inkscape:connector-curvature="0"
+         id="rect4636-7"
+         d="m -42.915018,5.997808 h 6.131271 c 1.32548,0.01813 1.161755,0.671005 1.195627,1.3427981 l 3.422054,0.02534 c 0.536117,0.004 0.652171,0.252654 0.652171,0.633396 v 4.9658219 c 0,0.252649 -0.203396,0.456045 -0.456045,0.456045 h -10.945078 c -0.252649,0 -0.456044,-0.203396 -0.456044,-0.456045 V 6.453857 c 0,-0.252649 0.203395,-0.456045 0.456044,-0.456045 z"
+         style="opacity:1;fill:#199453;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.30000001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke" />
+    </g>
+  </g>
+</svg>

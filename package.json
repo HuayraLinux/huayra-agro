@@ -1,0 +1,55 @@
+{
+  "name": "huayra-recursos-educar",
+  "main": "electron/main.js",
+  "version": "1.0.1",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.6.3",
+    "mime-types": "^2.1.28",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-pdf": "^5.1.0",
+    "react-scripts": "4.0.2",
+    "styled-components": "^5.2.1",
+    "web-vitals": "^1.1.0"
+  },
+  "scripts": {
+    "start:electron": "electron .",
+    "start:react": "react-scripts start",
+    "remove-build": "rm -rf build",
+    "copy-pdfjs-worker": "cp -af ./node_modules/pdfjs-dist/build/pdf.worker.* build/",
+    "build": "npm run remove-build && react-scripts build && npm run copy-pdfjs-worker",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "electron": "^11.2.3"
+  },
+  "build": {
+    "files": [
+      "**/*",
+      "build"
+    ]
+  },
+  "homepage": "./"
+}

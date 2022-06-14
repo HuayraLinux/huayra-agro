@@ -1,0 +1,32 @@
+huayra-recursos-educativos-abiertos (1.0.4+nmu1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * fix pdf worker
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 18 Feb 2022 16:09:07 -0300
+
+huayra-recursos-educativos-abiertos (1.0.3) unstable; urgency=medium
+
+  * Vuelven iconos neutros.
+
+ -- Matias De lellis <mati86dl@gmail.com>  Tue, 09 Nov 2021 13:24:27 -0300
+
+huayra-recursos-educativos-abiertos (1.0.2) unstable; urgency=low
+
+  * Nueva ruta por defecto para recursos
+  * Nuevas imagenes de Juana Manso
+
+ -- Sebastian Alvarez <seba.alvarez16@gmail.com>  Wed, 17 Mar 2021 19:59:43 -0300
+
+huayra-recursos-educativos-abiertos (1.0.1) unstable; urgency=low
+
+  * Splash inicial con errores para ayuda de soporte
+
+ -- Sebastian Alvarez <seba.alvarez16@gmail.com>  Sun, 07 Mar 2021 18:53:35 -0300
+
+huayra-recursos-educativos-abiertos (1.0.0) unstable; urgency=low
+
+  * Versión inicial
+
+ -- Sebastian Alvarez <seba.alvarez16@gmail.com>  Sun, 28 Feb 2021 01:00:33 -0300
+

@@ -1,0 +1,16 @@
+Source: huayra-recursos-educativos-abiertos
+Section: utils
+Priority: extra
+Maintainer: Sebastian Alvarez <seba.alvarez16@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ca-certificates, wget
+Standards-Version: 3.9.3
+Homepage: http://github.com/HuayraLinux/huayra-recursos
+Vcs-Git: git://github.com/HuayraLinux/huayra-recursos.git
+Vcs-Browser: https://github.com/HuayraLinux/huayra-recursos
+
+Package: huayra-recursos-educativos-abiertos
+Architecture: all
+Depends: electron,
+	${misc:Depends}
+Description: Recursos Educativos Abiertos curados por Educ.Ar S.E.
+ Recursos Educativos Abiertos curados por Educ.Ar S.E.
