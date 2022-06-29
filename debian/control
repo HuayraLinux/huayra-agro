@@ -1,16 +1,15 @@
-Source: huayra-recursos-educativos-abiertos
+Source: huayra-recursos-agro
 Section: utils
 Priority: extra
 Maintainer: Sebastian Alvarez <seba.alvarez16@gmail.com>
 Build-Depends: debhelper (>= 9.0.0), ca-certificates, wget
 Standards-Version: 3.9.3
-Homepage: http://github.com/HuayraLinux/huayra-recursos
-Vcs-Git: git://github.com/HuayraLinux/huayra-recursos.git
-Vcs-Browser: https://github.com/HuayraLinux/huayra-recursos
+Homepage: http://github.com/HuayraLinux/huayra-agro
+Vcs-Git: git://github.com/HuayraLinux/huayra-agro.git
+Vcs-Browser: https://github.com/HuayraLinux/huayra-agro
 
-Package: huayra-recursos-educativos-abiertos
+Package: huayra-recursos-agro
 Architecture: all
 Depends: electron,
 	${misc:Depends}
-Description: Recursos Educativos Abiertos curados por Educ.Ar S.E.
- Recursos Educativos Abiertos curados por Educ.Ar S.E.
+Description: Aplicacion de Recursos Educativos Sobre Agricultura

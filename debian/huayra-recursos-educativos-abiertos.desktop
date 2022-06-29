@@ -1,9 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Name=Recursos Educativos Abiertos
-Comment=Recursos Educativos Abiertos
-Exec=/usr/bin/huayra-recursos-educativos-abiertos
-Terminal=false
-Type=Application
-Categories=Graphics;Huayra;
-Icon=huayra-recursos-educativos-abiertos

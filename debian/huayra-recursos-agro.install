@@ -1,0 +1,5 @@
+electron usr/share/huayra-recursos-agro
+build	usr/share/huayra-recursos-agro
+bin/huayra-recursos-agro usr/bin/
+debian/huayra-recursos-agro.desktop /usr/share/applications
+debian/huayra-recursos-agro.svg /usr/share/icons/hicolor/scalable/apps

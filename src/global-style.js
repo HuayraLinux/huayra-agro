@@ -2,15 +2,15 @@ import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
   :root {
-    --primary-color: #822b86;
+    --primary-color: #e3a77f;
     --secondary-color: #8D8D8D;
 
     --shadow-offset: 5px;
-    --shadow-color: #f7be4a;
+    --shadow-color: #45af00;
   }
 
   html {
-    background-color: #2DB0B0;
+    background-color: #bbe49e;
     color: var(--text-secondary-color);
   }
 

@@ -1,3 +1,0 @@
-#!/bin/bash
-
-electron /usr/share/huayra-recursos-educativos-abiertos/electron/main.js

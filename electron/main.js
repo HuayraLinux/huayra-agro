@@ -33,12 +33,12 @@ const checkIntegrity = (resources, fileName) => {
 };
 
 const defaults = {
-  CARPETA_RECURSOS: '/home/recursos',
+  CARPETA_RECURSOS: '/home/recursos-agro',
   ANCHO: 1366,
   ALTO: 655,
 };
 
-const homeConfigPath = `${process.env.HOME}/.huayra-recursos-educativos-abiertos.json`;
+const homeConfigPath = `${process.env.HOME}/.huayra-recursos-agro`;
 let config = {};
 try {
   const homeConfig = fs.readFileSync(homeConfigPath, 'utf8');

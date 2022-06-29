@@ -72,7 +72,7 @@ export default () => {
       <div className="w-full flex justify-center items-end" >
         <Vaca name="Indica" width="200px" height="200px" />
         <div style={{ marginBottom: '32px' }}>
-          <h1 className="text-5xl text-center">Recursos Educativos Abiertos</h1>
+          <h1 className="text-5xl text-center">Recursos Educativos Sobre Agricultura</h1>
           <h2 className="text-4xl">Tenés a tu disposición: </h2>
         </div>
       </div>

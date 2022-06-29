@@ -1,0 +1,3 @@
+#!/bin/bash
+
+electron /usr/share/huayra-recursos-agro/electron/main.js

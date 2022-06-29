@@ -1,5 +1,0 @@
-electron usr/share/huayra-recursos-educativos-abiertos
-build	usr/share/huayra-recursos-educativos-abiertos
-bin/huayra-recursos-educativos-abiertos usr/bin/
-debian/huayra-recursos-educativos-abiertos.desktop /usr/share/applications
-debian/huayra-recursos-educativos-abiertos.svg /usr/share/icons/hicolor/scalable/apps

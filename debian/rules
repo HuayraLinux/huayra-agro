@@ -27,7 +27,7 @@ NODE_FILENAME=node-$(NODE_VERSION)-linux-x64
 NODE_TARBALL=$(NODE_FILENAME).tar.xz
 
 PATH:=$(NODE_FILENAME)/bin:$(PATH)
-#PATH:=/tmp/buildd/huayra-recursos-educativos-abiertos-1.0.3/node-v12.21.0-linux-x64/bin/:/bin:/usr/bin:$(PATH)
+#PATH:=/tmp/buildd/huayra-recursos-agro-1.0.3/node-v12.21.0-linux-x64/bin/:/bin:/usr/bin:$(PATH)
 
 %:
 	dh $@
