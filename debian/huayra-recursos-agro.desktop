@@ -1,7 +1,7 @@
 [Desktop Entry]
 Version=1.0
-Name=Recursos Educativos Agro
-Comment=Recursos Educativos Agro
+Name=Huayra Agro
+Comment=Huayra Agro
 Exec=/usr/bin/huayra-recursos-agro
 Terminal=false
 Type=Application

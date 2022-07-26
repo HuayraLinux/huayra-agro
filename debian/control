@@ -12,4 +12,4 @@ Package: huayra-recursos-agro
 Architecture: all
 Depends: electron,
 	${misc:Depends}
-Description: Aplicacion de Recursos Educativos Sobre Agricultura
+Description: Aplicacion de Recursos Educativos Agrícolas (Huayra Agro)

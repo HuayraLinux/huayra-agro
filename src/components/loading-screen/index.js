@@ -24,7 +24,7 @@ export default () => {
         </>:
         <>
           <Vaca name="Heroina" size="2x" />
-          <h1 className="text-6xl text-center mt-20">Recursos Educativos Sobre Agricultura</h1>
+          <h1 className="text-6xl text-center mt-20">Huayra Agro</h1>
           <EmojiButton src={CounterClockwiseArrows} title="Cargando..." size="100px" animate="pulse" />
           <h2 className="mt-4 text-4xl">Estamos preparando todo...</h2>
         </>

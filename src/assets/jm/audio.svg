@@ -7,6 +7,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="256"
@@ -15,9 +16,32 @@
    version="1.1"
    id="svg18205"
    inkscape:version="0.92.1 r15371"
-   sodipodi:docname="musica.svg">
+   sodipodi:docname="audio.svg">
   <defs
-     id="defs18199" />
+     id="defs18199">
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4717"
+       id="linearGradient4719-3"
+       x1="31.855749"
+       y1="260.6575"
+       x2="31.631413"
+       y2="296.10263"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.92647062,0,0,0.92647062,7.2769484,9.8196604)" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4717">
+      <stop
+         style="stop-color:#82cf4e;stop-opacity:1;"
+         offset="0"
+         id="stop4713" />
+      <stop
+         style="stop-color:#82cf4e;stop-opacity:0;"
+         offset="1"
+         id="stop4715" />
+    </linearGradient>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -26,16 +50,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.1794051"
-     inkscape:cx="230.97387"
-     inkscape:cy="112.39905"
+     inkscape:cx="42.319437"
+     inkscape:cy="109.00751"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
-     inkscape:window-width="1918"
-     inkscape:window-height="1023"
+     inkscape:window-width="1914"
+     inkscape:window-height="1008"
      inkscape:window-x="0"
-     inkscape:window-y="26"
+     inkscape:window-y="24"
      inkscape:window-maximized="1"
      inkscape:snap-global="false" />
   <metadata
@@ -46,7 +70,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -56,23 +80,30 @@
      id="layer1"
      transform="translate(0,-229.26665)">
     <g
-       id="g8773-9-7"
-       transform="matrix(1.6230689,0,0,1.6230689,0.84813185,-660.25535)">
-      <g
-         transform="matrix(0.35277777,0,0,-0.35277777,40.743799,568.97936)"
-         id="g36-3-5-0-3">
-        <path
-           inkscape:connector-curvature="0"
-           id="path38-5-4-0-6"
-           style="fill:#e69732;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           d="m 0,0 c 0,-32.038 -25.973,-58.01 -58.01,-58.01 -32.038,0 -58.01,25.972 -58.01,58.01 0,32.038 25.972,58.01 58.01,58.01 C -25.973,58.01 0,32.038 0,0" />
-      </g>
+       transform="matrix(1.0441176,0,0,1.0441176,-1.4932216,-12.084147)"
+       id="g4755">
+      <rect
+         ry="7.1787596"
+         y="232.8562"
+         x="3.5787008"
+         height="61.019463"
+         width="61.019463"
+         id="rect4491-5"
+         style="opacity:1;fill:#45af00;fill-opacity:1;stroke:none;stroke-width:0.82123071;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke" />
+      <rect
+         ry="6.6509099"
+         y="235.09955"
+         x="5.8220553"
+         height="56.532734"
+         width="56.532734"
+         id="rect4491-06-3"
+         style="opacity:1;fill:url(#linearGradient4719-3);fill-opacity:1;stroke:none;stroke-width:0.76084614;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke" />
       <path
          sodipodi:nodetypes="cccccccccccccccccccccccccccsc"
          inkscape:connector-curvature="0"
-         id="rect4652-7-8-4-4-6-6-0-5"
-         d="m 12.456877,560.55325 c -0.354615,-0.006 -0.731227,0.0724 -0.764162,0.58145 h -0.0075 v 13.51864 c -0.05386,0.27262 -0.06816,0.55029 -0.04273,0.82615 0.172997,1.7712 1.916641,3.08503 3.902237,2.94032 1.985671,-0.14459 3.467397,-1.69371 3.315961,-3.46653 l -0.0075,-0.0704 c -0.194721,-1.76941 -1.954419,-3.06613 -3.938134,-2.90196 -0.297742,0.0254 -0.590804,0.0837 -0.872477,0.17347 v -8.63334 h 9.768779 v 11.45765 h 0.006 c -0.0173,0.17885 -0.01791,0.35873 -0.0015,0.5377 0.173072,1.77116 1.916792,3.08491 3.902387,2.94013 1.985537,-0.14474 3.467143,-1.69366 3.315812,-3.46639 l -0.006,-0.0704 c -0.194708,-1.76938 -1.954421,-3.06609 -3.938152,-2.90197 -0.314277,0.0263 -0.606451,0.0975 -0.902493,0.19522 v -8.68357 l 6.37e-4,-0.009 0.009,-1.72408 c 0.009,-0.12955 -0.006,-0.49679 -0.02586,-0.60867 v -0.0537 l 0.006,0.0844 c -0.0835,-0.35426 -0.355382,-0.67011 -0.868715,-0.63595 H 12.946133 c -0.121119,0 -0.301323,-0.0266 -0.487605,-0.0301 z"
-         style="fill:#28abbd;fill-opacity:1;stroke:#000000;stroke-width:1.0532068;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         id="rect4652-7-8-4-4-6-6-0-5-5-5"
+         d="m 20.817878,248.82085 c -0.63773,-0.0111 -1.31502,0.1302 -1.37425,1.04566 h -0.0135 v 24.31163 c -0.0969,0.49029 -0.12257,0.98964 -0.0768,1.48574 0.31112,3.18529 3.44685,5.54805 7.0177,5.2878 3.57099,-0.26001 6.2357,-3.04592 5.96336,-6.23412 l -0.0135,-0.12661 c -0.35018,-3.18207 -3.51479,-5.51407 -7.08226,-5.21883 -0.53545,0.0457 -1.06249,0.15053 -1.56904,0.31197 v -15.52602 h 17.56796 v 20.6052 h 0.0107 c -0.0311,0.32164 -0.0322,0.64513 -0.003,0.96699 0.31125,3.18521 3.44712,5.54783 7.01797,5.28746 3.57075,-0.26029 6.23524,-3.04583 5.96309,-6.23388 l -0.0111,-0.1266 c -0.35013,-3.18202 -3.51477,-5.514 -7.08227,-5.21885 -0.56518,0.0473 -1.09062,0.17535 -1.62302,0.35109 v -15.61635 l 10e-4,-0.0162 0.0162,-3.10054 c 0.0162,-0.23299 -0.0111,-0.89343 -0.0465,-1.09463 v -0.0966 l 0.0111,0.15178 c -0.15017,-0.6371 -0.63912,-1.20511 -1.56228,-1.14368 h -22.23203 c -0.21782,0 -0.54189,-0.0479 -0.8769,-0.0542 z"
+         style="fill:#e3ffd2;fill-opacity:1;stroke:none;stroke-width:1.8940649;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
   </g>
 </svg>

@@ -33,12 +33,12 @@ const checkIntegrity = (resources, fileName) => {
 };
 
 const defaults = {
-  CARPETA_RECURSOS: '/home/recursos-agro',
-  ANCHO: 1366,
-  ALTO: 655,
+  CARPETA_RECURSOS: '/home/estudiante/',
+  ANCHO: 800,
+  ALTO: 600,
 };
 
-const homeConfigPath = `${process.env.HOME}/.huayra-recursos-agro`;
+const homeConfigPath = `${process.env.HOME}/.huayra-agro.json`;
 let config = {};
 try {
   const homeConfig = fs.readFileSync(homeConfigPath, 'utf8');
@@ -77,7 +77,7 @@ const createWindow = () => {
   mainWindow.loadURL(startURL);
   mainWindow.setPosition(0, 0);
   mainWindow.setMenuBarVisibility(false);
-  mainWindow.setTitle('Recursos Educativos Abiertos');
+  mainWindow.setTitle('Huayra Agro');
   
   if (reactDevServer) {
     mainWindow.webContents.openDevTools();

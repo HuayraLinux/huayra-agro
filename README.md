@@ -1,3 +1,3 @@
-# Huayra Recursos Agro
+# Huayra Agro
 
 ## Descripción
