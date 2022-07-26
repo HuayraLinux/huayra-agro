@@ -22,7 +22,7 @@ import Wrapper from './style';
 const ipc = window.require('electron').ipcRenderer;
 
 export default () => {
-  const { resourceId, allResources } = useContext(Context);
+  const { resourceId, allResources, isSearching, isSelected } = useContext(Context);
 
   const [showSplash, setShowSplash] = useState(true);
   const [resourceFile, setResourceFile] = useState(null);
@@ -32,17 +32,21 @@ export default () => {
   const [resourceNotFound, setResourceNotFound] = useState(null);
 
   useEffect(() => {
+    if (!isSearching && !isSelected) {
+      setShowSplash(true);
+      return;
+    }
+
     if (!resourceId) return;
     setShowSplash(false);
 
     const resourceFound = allResources.find(r => r.id === resourceId);
-
     setResourceTitle(resourceFound.titulo);
     setResourceDescription(resourceFound.descripcion);
     setResourceType(mime.lookup(resourceFound.nombre_archivo));
 
     ipc.send('build-filename', resourceFound.nombre_archivo);
-  }, [resourceId]);
+  }, [resourceId, isSearching, isSelected]);
 
   useEffect(() => {
     ipc.on('build-filename-result', (e, result) => {
@@ -57,17 +61,22 @@ export default () => {
     });
   }, []);
 
-  return useMemo(() => (
+  if (showSplash) {
+    return ( 
+      <Wrapper.Main>
+        <SplashScreen />
+      </Wrapper.Main>
+    );
+  }
+
+  return (
     <Wrapper.Main>
-      {
-        showSplash ?
-        <SplashScreen /> :
-        <Wrapper.ResourcePlaceholder>
-          <div className="flex justify-between items-center">
-            <h1 className="text-2xl truncate">{ resourceTitle }</h1>
-            <div className="flex">
-              {
-                !resourceNotFound &&
+      <Wrapper.ResourcePlaceholder>
+        <div className="flex justify-between items-center">
+          <h1 className="text-2xl truncate">{ resourceTitle }</h1>
+          <div className="flex">
+            {
+              !resourceNotFound &&
                 <>
                   <EmojiButton src={FileFolder}
                     title="Abrir en carpeta"
@@ -78,12 +87,12 @@ export default () => {
                     onClick={() => ipc.send('open-file', resourceFile)}
                   />
                 </>
-              }
-            </div>
+            }
           </div>
-          <h2 className="text-lg">{ resourceDescription }</h2>
-          {
-            resourceNotFound ?
+        </div>
+        <h2 className="text-lg">{ resourceDescription }</h2>
+        {
+          resourceNotFound ?
             <div className="flex flex-col items-center justify-center rounded">
               <Vaca name="Panico" size="2x" />
               <h1 className="mt-8 text-2xl font-bold">Recurso no encontrado</h1>
@@ -95,9 +104,8 @@ export default () => {
               </h2>
             </div>:
             <ResourceRender file={resourceFile} mimeType={resourceType} />
-          }
-        </Wrapper.ResourcePlaceholder>
-      }
+        }
+      </Wrapper.ResourcePlaceholder>
     </Wrapper.Main>
-  ), [resourceFile]);
+  );
 };

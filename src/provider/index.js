@@ -14,6 +14,7 @@ export default ({ children }) => {
   const [resources, setResources] = useState([]);
   const [resourceId, setResourceId] = useState(null);
   const [isSearching, setIsSearching] = useState(false);
+  const [isSelected, setIsSelected] = useState(false);
   const [appReady, setAppAsReady] = useState(false);
   const [appFailed, setAppFailed] = useState(null);
 
@@ -21,10 +22,12 @@ export default ({ children }) => {
     resources,
     resourceId,
     isSearching,
+    isSelected,
     setResources,
     setResourceId,
     allResources,
     setIsSearching,
+    setIsSelected,
     appReady,
     appFailed
   };

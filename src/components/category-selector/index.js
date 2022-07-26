@@ -25,7 +25,7 @@ export default () => {
     allResources,
     setResources,
     isSearching,
-    resources,
+    setIsSelected
   } = useContext(Context);
 
   const [categorySelected, setCategorySelected] = useState(false);
@@ -33,6 +33,12 @@ export default () => {
 
   const onCategoryClicked = ({ target }) => {
     const { selectedIndex, options } = target;
+    if (selectedIndex === 0) {
+      setResources([]);
+      setCategorySelected(false);
+      setIsSelected(false);
+      return;
+    }
 
     const option = options[selectedIndex];
     const parentOption = option.parentNode;
@@ -48,6 +54,7 @@ export default () => {
 
     setResources(resources);
     setCategorySelected(true);
+    setIsSelected(true);
   };
 
   useEffect(() => {
@@ -59,10 +66,7 @@ export default () => {
   return (
     <Wrapper.Main disabled={isSearching}>
       <Wrapper.Select onChange={onCategoryClicked} disabled={isSearching}>
-        {
-          (isSearching || !resources.length || !categorySelected) &&
-          <option selected={true} disabled={true}>Elegir una categoría</option>
-        }
+        <option selected={true} disabled={false}>Listado de categorías</option>
         {
           formattedData.map((e, i) => (
             <OptGroup key={i} id={e.cycle} label={e.cycle}>
